@@ -71,5 +71,5 @@ if [ -s $RESULT_CHECK ]
 then
 cd $CUR_DIR/$YESTERDAY
 zip -P abc123adf result_check_ip_warn$YESTERDAY.zip check_ip_result.txt
-#cat ../mail_tmp.txt  | mailx -a "result_check_ip_warn$YESTERDAY.zip" -s " [$YESTERDAY][PROD][REPORT]Check account login via duplicate IP address" -S smtp=10.20.4.6 -S smtp-auth=login -S smtp-auth-user=noreply@uat-jp-st.localdomain -S smtp-auth-password=123@123a -S from="noreply@uat-jp-st.localdomain" cuong.nguyen.chinh@nextop.asia quyen.le.manh@nextop.asia
+#cat ../mail_tmp.txt  | mailx -a "result_check_ip_warn$YESTERDAY.zip" -s " [$YESTERDAY][PROD][REPORT]Check account login via duplicate IP address" -S smtp=1.2.3.4 -S smtp-auth=login -S smtp-auth-user=noreply@uat-jp-st.localdomain -S smtp-auth-password=123@123a -S from="noreply@uat-jp-st.localdomain" abc@123.com
 fi
