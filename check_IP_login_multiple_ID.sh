@@ -17,8 +17,8 @@ RESULT_CHECK=$CUR_DIR/$YESTERDAY/check_ip_result.txt
 #RESULT_CHECKT=/tmp/.result_checkt.txt
 MAIL_TMP=$CUR_DIR/mail_tmp.txt
 mkdir -p $CUR_DIR/$YESTERDAY/
-CAS_SERVER1=10.8.20.4
-CAS_SERVER2=10.8.20.6
+CAS_SERVER1=1.2.3.5
+CAS_SERVER2=1.2.3.6
 # remove tmp file
 rm -f $LOG_F $LOG_S $LOG_T $IP_LIST $RESULT_CHECK $LIST_USER $LOG_ST
 # get log from cas server to check server
